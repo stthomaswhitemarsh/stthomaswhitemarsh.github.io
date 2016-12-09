@@ -122,7 +122,7 @@ pre {
 body {
   height: 100%;
   overflow-x: hidden;
-  background: url("../images/christmas.jpg") no-repeat;
+  background: url("../images/christmas-background.jpg") no-repeat;
   background-position: top 0%;
   background-size: cover;
   /* @include media-query($large) {
@@ -141,10 +141,10 @@ a {
 #site-header {
   height: 100% !important;
   overflow: hidden;
-  text-shadow: .02em .02em .02em black, .02em -.02em .02em black, -.02em .02em .02em black, -.02em -.02em .02em black,  .2em .2em .2em yellow, .2em -.2em .2em yellow, -.2em .2em .2em yellow, -.2em -.2em .2em yellow;
+  /*text-shadow: .02em .02em .02em black, .02em -.02em .02em black, -.02em .02em .02em black, -.02em -.02em .02em black,  .2em .2em .2em yellow, .2em -.2em .2em yellow, -.2em .2em .2em yellow, -.2em -.2em .2em yellow;*/
   text-align: center;
-  color: white;
-  background: url("../images/nativity.jpg") no-repeat;
+  color: black;
+  /*background: url("../images/nativity-background.jpg") no-repeat;*/
   background-position: left 0% bottom 0%;
   background-size: cover; }
   #site-header .wrapper {
@@ -160,8 +160,8 @@ a {
     position: absolute;
     top: 1%;
     left: 1%;
-    color: white;
-    text-shadow: 0px 0px 3px black;
+    color: black;
+    /*text-shadow: 0px 0px 3px black;*/
     vertical-align: bottom; }
 
 #social-media {
@@ -202,7 +202,7 @@ h4 {
     text-decoration: none; }
 
 #lead-up {
-  color: white;
+  color: black;
   background: rgba(0, 0, 0, 0.8);
   padding: 40px 20px; }
   #lead-up p:last-of-type {
@@ -211,8 +211,8 @@ h4 {
     margin-bottom: 0px; }
 
 #main-events {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.8);
+  color: black;
+  /*background-color: rgba(0, 0, 0, 0.8);*/
   padding: 20px; }
   #main-events article:last-of-type {
     margin-bottom: 0px; }
@@ -387,7 +387,7 @@ article.service {
 #services {
   padding: 40px 20px;
   background-color: #3c97ac;
-  color: white; }
+  color: black; }
   #services * {
     text-align: center; }
   #services h2 {
